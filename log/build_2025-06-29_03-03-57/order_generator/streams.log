@@ -1,0 +1,25 @@
+[5.353s] Invoking command in '/dev_ws_jazzy/build/order_generator': AMENT_PREFIX_PATH=/dev_ws_jazzy/install/delivery_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/dev_ws_jazzy/install/delivery_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/dev_ws_jazzy/install/delivery_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/dev_ws_jazzy/build/order_generator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/dev_ws_jazzy/install/order_generator/lib/python3.12/site-packages:/dev_ws_jazzy/install/delivery_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /dev_ws_jazzy/build/order_generator/build --no-deps symlink_data
+[8.267s] running develop
+[9.389s] running egg_info
+[9.391s] creating order_generator.egg-info
+[9.443s] writing order_generator.egg-info/PKG-INFO
+[9.462s] writing dependency_links to order_generator.egg-info/dependency_links.txt
+[9.467s] writing entry points to order_generator.egg-info/entry_points.txt
+[9.471s] writing requirements to order_generator.egg-info/requires.txt
+[9.475s] writing top-level names to order_generator.egg-info/top_level.txt
+[9.489s] writing manifest file 'order_generator.egg-info/SOURCES.txt'
+[9.676s] reading manifest file 'order_generator.egg-info/SOURCES.txt'
+[9.820s] writing manifest file 'order_generator.egg-info/SOURCES.txt'
+[9.942s] running build_ext
+[9.943s] Creating /dev_ws_jazzy/install/order_generator/lib/python3.12/site-packages/order-generator.egg-link (link to .)
+[9.986s] Installing robot_node script to /dev_ws_jazzy/install/order_generator/lib/order_generator
+[10.018s] Installing test_node script to /dev_ws_jazzy/install/order_generator/lib/order_generator
+[10.073s] 
+[10.075s] Installed /dev_ws_jazzy/build/order_generator
+[10.087s] running symlink_data
+[10.105s] creating /dev_ws_jazzy/install/order_generator/share/ament_index
+[10.109s] creating /dev_ws_jazzy/install/order_generator/share/ament_index/resource_index
+[10.117s] creating /dev_ws_jazzy/install/order_generator/share/ament_index/resource_index/packages
+[10.163s] symbolically linking /dev_ws_jazzy/build/order_generator/resource/order_generator -> /dev_ws_jazzy/install/order_generator/share/ament_index/resource_index/packages
+[10.208s] symbolically linking /dev_ws_jazzy/build/order_generator/package.xml -> /dev_ws_jazzy/install/order_generator/share/order_generator
+[10.274s] Invoked command in '/dev_ws_jazzy/build/order_generator' returned '0': AMENT_PREFIX_PATH=/dev_ws_jazzy/install/delivery_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/dev_ws_jazzy/install/delivery_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/dev_ws_jazzy/install/delivery_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/dev_ws_jazzy/build/order_generator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/dev_ws_jazzy/install/order_generator/lib/python3.12/site-packages:/dev_ws_jazzy/install/delivery_robot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /dev_ws_jazzy/build/order_generator/build --no-deps symlink_data

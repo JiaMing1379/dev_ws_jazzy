@@ -1,0 +1,70 @@
+[0.523s] Invoking command in '/dev_ws_jazzy/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /dev_ws_jazzy/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/dev_ws_jazzy/install/articubot_one
+[1.559s] -- The C compiler identification is GNU 13.3.0
+[2.242s] -- The CXX compiler identification is GNU 13.3.0
+[2.372s] -- Detecting C compiler ABI info
+[5.919s] -- Detecting C compiler ABI info - done
+[6.272s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.280s] -- Detecting C compile features
+[6.292s] -- Detecting C compile features - done
+[6.489s] -- Detecting CXX compiler ABI info
+[10.181s] -- Detecting CXX compiler ABI info - done
+[10.488s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[10.491s] -- Detecting CXX compile features
+[10.499s] -- Detecting CXX compile features - done
+[10.710s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[11.188s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[11.627s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[13.832s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[16.466s] -- Added test 'copyright' to check source files copyright and LICENSE
+[34.515s] -- Added test 'flake8' to check Python code syntax and style conventions
+[34.520s] -- Configured 'flake8' exclude dirs and/or files: 
+[35.525s] -- Added test 'lint_cmake' to check CMake code style
+[37.523s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[56.603s] -- Added test 'xmllint' to check XML markup files
+[56.606s] -- Configuring done (55.8s)
+[58.379s] -- Generating done (1.7s)
+[59.391s] -- Build files have been written to: /dev_ws_jazzy/build/articubot_one
+[59.413s] Invoked command in '/dev_ws_jazzy/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /dev_ws_jazzy/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/dev_ws_jazzy/install/articubot_one
+[59.457s] Invoking command in '/dev_ws_jazzy/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /dev_ws_jazzy/build/articubot_one -- -j16 -l16
+[60.047s] Invoked command in '/dev_ws_jazzy/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /dev_ws_jazzy/build/articubot_one -- -j16 -l16
+[60.128s] Invoking command in '/dev_ws_jazzy/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /dev_ws_jazzy/build/articubot_one
+[60.165s] -- Install configuration: ""
+[60.206s] -- Execute custom install script
+[60.448s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/config/ekf_localization.yaml
+[60.585s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/config/empty.yaml
+[60.662s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[60.749s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/config/gz_bridge.yaml
+[60.873s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/config/main.rviz
+[61.016s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[61.097s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[61.175s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[61.450s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[61.569s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/description/imu.xacro
+[61.711s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[61.806s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/description/lidar.xacro
+[61.894s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[61.990s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[62.057s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[62.220s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[62.312s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[62.397s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/launch/multi_robot.launch.py
+[62.499s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[62.610s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[62.796s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/worlds/empty.world
+[62.928s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/worlds/swinburne.world
+[63.021s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/worlds/swinburne_E2.sdf
+[63.136s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[63.251s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[63.373s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[63.461s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[63.550s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/environment/path.sh
+[63.621s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/environment/path.dsv
+[63.708s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/local_setup.bash
+[63.853s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/local_setup.sh
+[63.938s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/local_setup.zsh
+[64.030s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/local_setup.dsv
+[64.169s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/package.dsv
+[64.263s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[64.375s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[64.459s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[64.589s] -- Symlinking: /dev_ws_jazzy/install/articubot_one/share/articubot_one/package.xml

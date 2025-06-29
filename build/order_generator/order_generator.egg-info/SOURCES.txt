@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+order_generator/__init__.py
+order_generator/order_spammer.py
+order_generator/robot.py
+order_generator.egg-info/PKG-INFO
+order_generator.egg-info/SOURCES.txt
+order_generator.egg-info/dependency_links.txt
+order_generator.egg-info/entry_points.txt
+order_generator.egg-info/requires.txt
+order_generator.egg-info/top_level.txt
+order_generator.egg-info/zip-safe
+resource/order_generator

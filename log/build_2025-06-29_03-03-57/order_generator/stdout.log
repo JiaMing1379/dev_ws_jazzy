@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating order_generator.egg-info
+writing order_generator.egg-info/PKG-INFO
+writing dependency_links to order_generator.egg-info/dependency_links.txt
+writing entry points to order_generator.egg-info/entry_points.txt
+writing requirements to order_generator.egg-info/requires.txt
+writing top-level names to order_generator.egg-info/top_level.txt
+writing manifest file 'order_generator.egg-info/SOURCES.txt'
+reading manifest file 'order_generator.egg-info/SOURCES.txt'
+writing manifest file 'order_generator.egg-info/SOURCES.txt'
+running build_ext
+Creating /dev_ws_jazzy/install/order_generator/lib/python3.12/site-packages/order-generator.egg-link (link to .)
+Installing robot_node script to /dev_ws_jazzy/install/order_generator/lib/order_generator
+Installing test_node script to /dev_ws_jazzy/install/order_generator/lib/order_generator
+
+Installed /dev_ws_jazzy/build/order_generator
+running symlink_data
+creating /dev_ws_jazzy/install/order_generator/share/ament_index
+creating /dev_ws_jazzy/install/order_generator/share/ament_index/resource_index
+creating /dev_ws_jazzy/install/order_generator/share/ament_index/resource_index/packages
+symbolically linking /dev_ws_jazzy/build/order_generator/resource/order_generator -> /dev_ws_jazzy/install/order_generator/share/ament_index/resource_index/packages
+symbolically linking /dev_ws_jazzy/build/order_generator/package.xml -> /dev_ws_jazzy/install/order_generator/share/order_generator

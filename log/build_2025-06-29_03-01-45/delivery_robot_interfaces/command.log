@@ -1,0 +1,1 @@
+Invoking command in '/dev_ws_jazzy/build/delivery_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /dev_ws_jazzy/src/delivery_robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/dev_ws_jazzy/install/delivery_robot_interfaces

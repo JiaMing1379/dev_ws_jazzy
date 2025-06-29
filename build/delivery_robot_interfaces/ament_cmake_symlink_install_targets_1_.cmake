@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/dev_ws_jazzy/build/delivery_robot_interfaces/rosidl_generator_py/delivery_robot_interfaces/delivery_robot_interfaces_s__rosidl_typesupport_introspection_c.so" "TARGETS" "delivery_robot_interfaces_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/delivery_robot_interfaces")

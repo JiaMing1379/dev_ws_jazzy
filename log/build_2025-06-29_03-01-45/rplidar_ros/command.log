@@ -1,0 +1,3 @@
+Invoking command in '/dev_ws_jazzy/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /dev_ws_jazzy/src/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/dev_ws_jazzy/install/rplidar_ros
+Invoked command in '/dev_ws_jazzy/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /dev_ws_jazzy/src/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/dev_ws_jazzy/install/rplidar_ros
+Invoking command in '/dev_ws_jazzy/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /dev_ws_jazzy/build/rplidar_ros -- -j16 -l16

@@ -1,0 +1,1 @@
+This is run in ros jazzy, the robot can return its imu reading, and travel in the world. slam is not performed yet

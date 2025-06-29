@@ -1,0 +1,9 @@
+source;share/order_generator/hook/pythonpath.ps1
+source;share/order_generator/hook/pythonpath.dsv
+source;share/order_generator/hook/pythonpath.sh
+source;share/order_generator/hook/ament_prefix_path.ps1
+source;share/order_generator/hook/ament_prefix_path.dsv
+source;share/order_generator/hook/ament_prefix_path.sh
+source;../../build/order_generator/share/order_generator/hook/pythonpath_develop.ps1
+source;../../build/order_generator/share/order_generator/hook/pythonpath_develop.dsv
+source;../../build/order_generator/share/order_generator/hook/pythonpath_develop.sh
