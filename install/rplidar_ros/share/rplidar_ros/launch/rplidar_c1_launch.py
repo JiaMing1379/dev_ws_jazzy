@@ -1,1 +1,0 @@
-/dev_ws_jazzy/src/rplidar_ros/launch/rplidar_c1_launch.py

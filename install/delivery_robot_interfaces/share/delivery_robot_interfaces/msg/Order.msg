@@ -1,1 +1,0 @@
-/dev_ws_jazzy/src/delivery_robot_interfaces/msg/Order.msg

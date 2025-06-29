@@ -1,1 +1,0 @@
-/dev_ws_jazzy/build/delivery_robot_interfaces/rosidl_generator_c/delivery_robot_interfaces/msg/detail/order_step__struct.h

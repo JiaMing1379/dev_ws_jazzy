@@ -1,9 +1,0 @@
-/dev_ws_jazzy/build/articubot_one/CMakeFiles/uninstall.dir
-/dev_ws_jazzy/build/articubot_one/CMakeFiles/articubot_one_uninstall.dir
-/dev_ws_jazzy/build/articubot_one/CMakeFiles/test.dir
-/dev_ws_jazzy/build/articubot_one/CMakeFiles/edit_cache.dir
-/dev_ws_jazzy/build/articubot_one/CMakeFiles/rebuild_cache.dir
-/dev_ws_jazzy/build/articubot_one/CMakeFiles/list_install_components.dir
-/dev_ws_jazzy/build/articubot_one/CMakeFiles/install.dir
-/dev_ws_jazzy/build/articubot_one/CMakeFiles/install/local.dir
-/dev_ws_jazzy/build/articubot_one/CMakeFiles/install/strip.dir

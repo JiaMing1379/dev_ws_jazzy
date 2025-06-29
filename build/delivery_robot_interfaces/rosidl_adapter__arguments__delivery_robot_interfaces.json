@@ -1,7 +1,0 @@
-{
-  "package_name": "delivery_robot_interfaces",
-  "non_idl_tuples": [
-    "/dev_ws_jazzy/src/delivery_robot_interfaces:msg/OrderStep.msg",
-    "/dev_ws_jazzy/src/delivery_robot_interfaces:msg/Order.msg"
-  ]
-}

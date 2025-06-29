@@ -1,3 +1,0 @@
-[console_scripts]
-robot_node = order_generator.robot:main
-test_node = order_generator.order_spammer:main

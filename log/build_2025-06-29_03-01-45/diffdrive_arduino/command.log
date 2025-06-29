@@ -1,4 +1,0 @@
-Invoking command in '/dev_ws_jazzy/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /dev_ws_jazzy/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/dev_ws_jazzy/install/diffdrive_arduino
-Invoked command in '/dev_ws_jazzy/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /dev_ws_jazzy/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/dev_ws_jazzy/install/diffdrive_arduino
-Invoking command in '/dev_ws_jazzy/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /dev_ws_jazzy/build/diffdrive_arduino -- -j16 -l16
-Invoked command in '/dev_ws_jazzy/build/diffdrive_arduino' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /dev_ws_jazzy/build/diffdrive_arduino -- -j16 -l16
