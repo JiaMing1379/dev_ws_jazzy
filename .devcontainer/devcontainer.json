@@ -9,7 +9,7 @@
   "workspaceFolder": "/${localWorkspaceFolderBasename}",
   "mounts": [
     "source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_history,target=/home/vscode/.bash_history,type=bind",
-    "source=/mnt/c/Users/User/Desktop,target=/desktop,type=bind"
+    "source=/home/devcontainers/,target=/desktop,type=bind"
   ],
   "customizations": {
     "vscode": {

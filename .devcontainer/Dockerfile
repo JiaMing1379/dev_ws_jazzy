@@ -27,6 +27,7 @@ RUN sudo apt update && sudo apt upgrade -y
 # Install Git
 RUN sudo apt install -y git
 RUN sudo apt install -y libserial-dev
+RUN sudo apt install -y mesa-utils
 
 # Rosdep update
 RUN rosdep update
