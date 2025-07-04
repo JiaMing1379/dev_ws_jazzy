@@ -1,0 +1,31 @@
+- name: "Emergency Department"
+  position: {x: -1.48, y: -25.51, z: 0.0}
+  orientation: {x: 0.0, y: 0.0, z: 0.70, w: 0.71}
+- name: "Imaging Department"
+  position: {x: 5.83, y: -4.39, z: 0.0}
+  orientation: {x: 0.0, y: 0.0, z: 0.1, w: 0.00291}
+- name: "General Ward"
+  position: {x: 5.48, y: 4.99, z: 0.0}
+  orientation: {x: 0.0, y: 0.0, z: 0.999, w: 0.0102}
+- name: "ICU"
+  position: {x: 5.94, y: 12.29, z: 0.0}
+  orientation: {x: 0.0, y: 0.0, z: 0.9996, w: 0.02864}
+- name: "Lab"
+  position: {x: 8.3, y: -12.76, z: 0.0}
+  orientation: {x: 0.0, y: 0.0, z: -0.0069, w: 0.999976}
+- name: "Pharmacy"
+  position: {x: 8.31, y: -3.212, z: 0.0}
+  orientation: {x: 0.0, y: 0.0, z: 0.01373, w: 0.99991}
+- name: "Nursing Station"
+  position: {x: 8.27, y: 3.27, z: 0.0}
+  orientation: {x: 0.0, y: 0.0, z: -0.006524, w: 0.999978}
+- name: "Operating Theatre"
+  position: {x: 8.42, y: 18.03, z: 0.0}
+  orientation: {x: 0.0, y: 0.0, z: -0.014, w: 0.99991}
+- name: "Storage Room"
+  position: {x: -0.252, y: 21.89, z: 0.0}
+  orientation: {x: 0.0, y: 0.0, z: -0.695, w: 0.71868}
+- name: "Central Sterile Supply Department"
+  position: {x: 1.88, y: 25.18, z: 0.0}
+  orientation: {x: 0.0, y: 0.0, z: 0.6925, w: 0.72141}
+  

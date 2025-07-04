@@ -9,12 +9,12 @@ RUN if ! id -u $USER_UID >/dev/null 2>&1; then \
 groupadd --gid $USER_GID $USERNAME && \
 useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME; \
 fi
+
 # Add sudo support for the non-root user
 RUN apt-get update && \
 apt-get install -y sudo && \
 echo "$USERNAME ALL=(root) NOPASSWD:ALL" > /etc/sudoers.d/$USERNAME && \
 chmod 0440 /etc/sudoers.d/$USERNAME
-
 # Switch from root to user
 USER $USERNAME
 
@@ -29,6 +29,13 @@ RUN sudo apt install -y git
 RUN sudo apt install -y libserial-dev
 RUN sudo apt install -y mesa-utils
 
+# Set timezone to Asia/Kuala_Lumpur
+ENV TZ=Asia/Kuala_Lumpur
+RUN sudo apt-get update && sudo apt-get install -y tzdata && \
+    sudo ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && \
+    echo $TZ | sudo tee /etc/timezone && \
+    sudo dpkg-reconfigure -f noninteractive tzdata
+    
 # Rosdep update
 RUN rosdep update
 
@@ -41,7 +48,6 @@ ros-${ROS_DISTRO}-xacro \
 ros-${ROS_DISTRO}-rqt \
 ros-${ROS_DISTRO}-joint-state-publisher \
 ros-${ROS_DISTRO}-ros-gz \
-
 ros-${ROS_DISTRO}-gz-ros2-control \
 ros-${ROS_DISTRO}-twist-mux \
 ros-${ROS_DISTRO}-twist-stamper \
