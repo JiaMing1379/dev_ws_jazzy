@@ -61,6 +61,7 @@ ros-${ROS_DISTRO}-navigation2 \
 ros-${ROS_DISTRO}-nav2-bringup \
 ros-${ROS_DISTRO}-turtlebot3* \
 ros-${ROS_DISTRO}-ros-gz-sim \
+ros-${ROS_DISTRO}-rmw-zenoh-cpp \
 && sudo rm -rf /var/lib/apt/lists/*
 
 ################################

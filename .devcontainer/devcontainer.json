@@ -8,15 +8,14 @@
   "workspaceMount": "source=${localWorkspaceFolder},target=/${localWorkspaceFolderBasename},type=bind",
   "workspaceFolder": "/${localWorkspaceFolderBasename}",
   "mounts": [
-    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_history,target=/home/vscode/.bash_history,type=bind",
-    "source=/home/devcontainers/,target=/desktop,type=bind"
+    "source=/home/devcontainers/dev_ws_jazzy,target=/desktop,type=bind"
   ],
   "customizations": {
     "vscode": {
       "extensions": [
         "ms-vscode.cpptools",
         "ms-vscode.cmake-tools",
-        "ms-iot.vscode-ros",
+        "Ranch-Hand-Robotics.rde-pack",
         "ms-python.python"
       ]
     }

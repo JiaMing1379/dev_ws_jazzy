@@ -9,18 +9,19 @@
     <xacro:property name="caster_wheel_offset_x" value="0.296"/>
     <xacro:property name="caster_wheel_offset_z" value="${-wheel_radius + caster_wheel_radius}"/>
 
-    <xacro:property name="base_link_chassis_offset_z" value="0.09775"/>
+    <xacro:property name="base_link_chassis_offset_z" value="0.0761"/>
+    <xacro:property name="base_link_chassis_offset_x" value="0.0464"/>
     
-    <xacro:property name="chassis_length" value="0.305"/>
-    <xacro:property name="chassis_width" value="0.305"/>
-    <xacro:property name="chassis_height" value="0.138"/>
+    <xacro:property name="chassis_length" value="0.290"/>
+    <xacro:property name="chassis_width" value="0.250"/>
+    <xacro:property name="chassis_height" value="0.1522"/>
     <xacro:property name="wheel_offset_x" value="0"/>
-    <xacro:property name="wheel_offset_y" value="0.1691"/>
+    <xacro:property name="wheel_offset_y" value="0.1596"/>
     <xacro:property name="wheel_offset_z" value="0"/>
     <xacro:property name="wheel_radius" value="0.03375"/>
     <xacro:property name="wheel_thickness" value="0.0265"/>
     <xacro:property name="wheel_mass" value="0.05"/>
-    <xacro:property name="pillar_height" value="0.1"/>
+    <xacro:property name="pillar_height" value="0.087"/>
     <xacro:property name="pillar_width" value="0.02"/>
 
     <material name="white">
@@ -61,7 +62,7 @@
     <joint name="chassis_joint" type="fixed">
         <parent link="base_link"/>
         <child link="chassis"/>
-        <origin xyz="0 0 ${base_link_chassis_offset_z}"/>
+        <origin xyz="${base_link_chassis_offset_x} 0 ${base_link_chassis_offset_z}"/>
     </joint>
 
     <link name="chassis">
@@ -73,30 +74,30 @@
             <material name="orange"/>
         </visual>
         
-        <visual>
-            <origin xyz="${chassis_length/2 - pillar_width/2} ${chassis_width/2 - pillar_width/2} ${chassis_height/2 + pillar_height/2}"/>
+        <visual> <!--front left-->
+            <origin xyz="${chassis_length/2 - pillar_width - pillar_width/2} ${chassis_width/2 - pillar_width/2} ${chassis_height/2 + pillar_height/2}"/>
             <geometry> 
                 <box size="${pillar_width} ${pillar_width} ${pillar_height}"/>
             </geometry>
             <material name="orange"/>
         </visual>
-        <visual>
-            <origin xyz="${chassis_length/2 - pillar_width/2} ${-chassis_width/2 + pillar_width/2} ${chassis_height/2 + pillar_height/2}"/>
+        <visual> <!--front right-->
+            <origin xyz="${chassis_length/2 - pillar_width - pillar_width/2} ${-chassis_width/2 + pillar_width/2} ${chassis_height/2 + pillar_height/2}"/>
             <geometry>
                 <box size="${pillar_width} ${pillar_width} ${pillar_height}"/>
             </geometry>
             <material name="orange"/>
         </visual>
-        <visual>
-            <origin xyz="${-chassis_length/2 + pillar_width/2} ${chassis_width/2 - pillar_width/2} ${chassis_height/2 + pillar_height/2}"/>
+        <visual> <!--back left-->
+            <origin xyz="${-chassis_length/2 + pillar_width + pillar_width/2} ${chassis_width/2 - pillar_width/2} ${chassis_height/2 + pillar_height/2}"/>
             <geometry> 
                 <box size="${pillar_width} ${pillar_width} ${pillar_height}"/>
             </geometry>
             <material name="orange"/>
         </visual>
 
-        <visual>
-            <origin xyz="${-chassis_length/2 + pillar_width/2} ${-chassis_width/2 + pillar_width/2} ${chassis_height/2 + pillar_height/2}"/>
+        <visual> <!-- back right -->
+            <origin xyz="${-chassis_length/2 + pillar_width + pillar_width/2} ${-chassis_width/2 + pillar_width/2} ${chassis_height/2 + pillar_height/2}"/>
             <geometry>
                 <box size="${pillar_width} ${pillar_width} ${pillar_height}"/>
             </geometry>
@@ -149,9 +150,6 @@
         <material>Gazebo/Blue</material>
     </gazebo>
 
-
-
-
     <!-- RIGHT WHEEL LINK -->
 
     <joint name="right_wheel_joint" type="continuous">
@@ -188,13 +186,7 @@
     <joint name="caster_wheel_joint_front" type="fixed">
         <parent link="base_link"/>
         <child link="caster_wheel_front"/>
-        <origin xyz="${chassis_length/2} 0 ${caster_wheel_offset_z}"/>
-    </joint>
-
-    <joint name="caster_wheel_joint_back" type="fixed">
-        <parent link="base_link"/>
-        <child link="caster_wheel_back"/>
-        <origin xyz="${-chassis_length/2} 0 ${caster_wheel_offset_z}"/>
+        <origin xyz="0.184 0 ${caster_wheel_offset_z}"/>
     </joint>
 
     <link name="caster_wheel_front">
@@ -214,30 +206,7 @@
         </xacro:inertial_sphere>
     </link>
 
-    <link name="caster_wheel_back">
-        <visual>
-            <geometry>
-                <sphere radius="${caster_wheel_radius}"/>
-            </geometry>
-            <material name="white"/>
-        </visual>
-        <collision>
-            <geometry>
-                <sphere radius="${caster_wheel_radius}"/>
-            </geometry>
-        </collision>
-        <xacro:inertial_sphere mass="${caster_wheel_mass}" radius="${caster_wheel_radius}">
-            <origin xyz="0 0 0" rpy="0 0 0"/>
-        </xacro:inertial_sphere>
-    </link>
-
     <gazebo reference="caster_wheel_front">
-        <material>Gazebo/White</material>
-        <mu1 value="0.001"/>
-        <mu2 value="0.001"/>
-    </gazebo>
-
-    <gazebo reference="caster_wheel_back">
         <material>Gazebo/White</material>
         <mu1 value="0.001"/>
         <mu2 value="0.001"/>
